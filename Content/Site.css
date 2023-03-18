@@ -1,4 +1,9 @@
 ﻿body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #eef900;
+    background-color: #333;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -22,4 +27,33 @@ select,
 textarea {
     max-width: 280px;
 }
-
+.navbar-inverse {
+    background-color: #8000ff;
+    border-color: #080808;
+}
+    .navbar-inverse .navbar-brand {
+        color: #eef900;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        color: #eef900;
+    }
+/*Course layout*/
+.course{
+    list-style: none;
+}
+.course > li{
+    position: relative;
+    margin-bottom: 30px;
+}
+    .course > li .date {
+        text-align: center;
+        background-color: #8000ff;
+        color: white;
+        width: 60px;
+        border-radius: 8px;
+    }
+.course > li .details{
+    position: absolute;
+    top:0;
+    left:70px;
+}
