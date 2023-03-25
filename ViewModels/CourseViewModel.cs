@@ -24,5 +24,7 @@ namespace vuvansang_2080600626.ViewModels
         {
             return DateTime.Parse(String.Format("{0} {1}", Date, Time));
         }
+        public IEnumerable<Course> UpcomingCourses { get; set; }
+        public bool ShowAction { get; set; }
     }
 }
