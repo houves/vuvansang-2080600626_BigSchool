@@ -22,9 +22,7 @@ namespace vuvansang_2080600626.ViewModels
         public IEnumerable<Category> Categories { get; set; }
         public DateTime GetDateTime()
         {
-            return DateTime.Parse(String.Format("{0} {1}", Date, Time));
-        }
-        public IEnumerable<Course> UpcomingCourses { get; set; }
-        public bool ShowAction { get; set; }
+            return DateTime.Parse(String.Format("{0} {1}", Date, Time));        
+        }        
     }
 }
